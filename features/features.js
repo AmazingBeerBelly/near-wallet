@@ -4,7 +4,7 @@ const FeatureFlags = require('./flags.json');
 
 const Features = initFeatureFlags({
     flagState: FeatureFlags,
-    currentEnvironment: process.env.NEAR_WALLET_ENV,
+    currentEnvironment: 'development',
     environments: Environments,
 });
 

@@ -10,7 +10,8 @@ import {
     parseDateFromShell
 } from './envParsers';
 
-const NEAR_WALLET_ENV = process.env.NEAR_WALLET_ENV;
+// const NEAR_WALLET_ENV = process.env.NEAR_WALLET_ENV;
+const NEAR_WALLET_ENV = 'development';
 
 assert(
     Object.values(Environments).some((env) => NEAR_WALLET_ENV === env),
